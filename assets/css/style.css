@@ -1,0 +1,38 @@
+@font-face {
+	src: url('../fonts/UbuntuCondensed-Regular.ttf');
+	font-family: 'ubuntu';
+}
+* {
+	font-family: 'ubuntu';
+}
+
+
+body {
+	background-color: #e9e9e9;
+}
+
+.btn {
+	border-radius: 0px !important;
+}
+
+input, input:focus {
+	border-radius: 0px !important;
+	outline: none !important;
+	box-shadow: none !important;
+	border: 1px solid #ccc !important;
+}
+input[type="submit"]  {
+	border: 1px solid transparent !important;
+}
+
+.bar {
+	height: 10px;
+	width: 100%;
+	background-color: red;
+	border-radius:10px;
+}
+
+h1 {
+	font-size: 100px;
+	font-family: impact;
+}
